@@ -1,0 +1,234 @@
+*{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background-color: #364545;
+}
+
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    background-color: #fcfcfc;
+}
+footer{
+    padding-top: 2em;
+    width: 100%;
+    margin-bottom: 0;
+    color: #fefefe;
+    background-color: #364545;
+    display: flex;
+}
+article{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    width: 45%;
+}
+h1.hidden{
+    visibility: hidden;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-column{
+    display: flex;
+    flex-direction: row;
+}
+.kaart-item-left {
+    flex: 50%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+.kaart-item-right {
+    flex: 50%;
+    margin-bottom: 5%;
+}
+h2{
+    margin-left: 8%;
+}
+.margin-top{
+    margin-top: 3%;
+}
+.margin-contact{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-center{
+    width: 45%;
+}
+.art-text{
+    width: 33%;
+    margin: 1em;
+
+}
+
+.topnav {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-direction: row;
+    padding: auto;
+    margin: auto;
+    width: 100%;
+
+}
+.topnav a {
+    display: block;
+    padding: .1rem;
+    background-color: #b8c271;
+    border: .2rem solid #b8c271;
+    color: #364545;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+
+
+}
+
+.topnav li {
+    width: 18%;
+
+}
+
+.topnav a:hover {
+    background-color: #fefefe;
+    border-color: #fefefe;
+}
+
+a.selected{
+    background-color: #fefefe;
+    border-color: #fefefe;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 8%;
+    width: 70%;
+}
+.navbar{
+
+    display: inline-block;
+    padding: 0.4rem;
+    color:white;
+    text-align: center;
+    margin: .75rem;
+}
+
+.text-white{
+    color: white;
+}
+.maps{
+    width: 30%;
+    height: 30%;
+    margin-bottom: 3em;
+    margin-right: 2em;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #364545;
+    color: white;
+    padding: .5em;
+    border: none;
+    border-radius: .5em;
+    cursor: pointer;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+.margin-p{
+    margin-left: 8%;
+}
+.row {
+    display: flex;
+}
+
+.column-flex {
+    flex: 50%;
+    padding: 10px;
+}
+.column.img{
+    width: 50%;
+}
+.legend{
+    padding: .5em;
+    margin: .5em;
+}
+.legend input label{
+    padding: .5em;
+}
+
+
+@media (max-width: 800px) {
+    .center-mobile{
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .topnav {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .topnav li{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding: 0;
+    }
+    ul{
+      margin-left: 0;
+    }
+    .mobile-home{
+        display: flex;
+        flex-direction: column;
+    }
+    .art-text{
+        width: 100%;
+    }
+    .menu-column{
+        flex-direction: column;
+        margin: auto;
+    }
+    .kaart-item-left{
+        margin-left: 0;
+    }
+
+
+}
+
+
+
